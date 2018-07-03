@@ -1,5 +1,5 @@
 Vagrant.configure('2') do |config|
-  config.vm.box = 'mybox'
+  config.vm.box = 'bento/ubuntu-16.04'
   config.ssh.insert_key = false
 
 
